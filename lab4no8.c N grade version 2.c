@@ -10,33 +10,38 @@ int main (){
 		}else if(score<0){
 			printf("error");
 		}else if(score>67){
-			if(score<71){
+			if(score<68){
 				printf("%d(D)\n",score);
-			}else if(score>=63){
-				if(score<71){
-					printf("%d(D)\n",score);
-				}else if(score>=71){
-					if(score<79){
-						printf("%d(C)\n",score);
-					}else if(score>=79){
-						if(score<87){
-							printf("%d(B)\n",score);
-						}else{
-							printf("%d(A)\n",score);
-						}	
+			}else if(score>=68){
+				if(score<75){
+					printf("%d(C)\n",score);
+				}else if(score>=75){
+					if(score<=85){
+						printf("%d(B)\n",score);
+					}else{
+						printf("%d(A)\n",score);
 					}
 				}
+				
 			}else{
-				printf("%d(F)\n",score);
-			}
-		}else{
-			if(score>=56){
 				printf("%d(D)\n",score);
-			}else{
-				printf("%d(F)\n",score);
 			}
+	   	}else{
+	   		if(score>=55){
+	   			printf("%d(D)\n",score);
+			}else{
+				printf("%d(F)\n",score);	
+			   }
 		}
-	}		
+				
+			
+					
+				
+		
+	}
 }
+		
+	
+
 
 
